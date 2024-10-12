@@ -5,3 +5,10 @@
 #     - Als het gelijk is aan “stop”, breek uit de lus.
 #     - Anders, voeg het toe aan de lijst met stappen.
 # - Itereer over de stappenlijst om te tekenen.
+stappen =[]
+while True :
+    stap = input("geef stappen(l,r,b,o) en 'stop' om te stoppen ")
+    if stap=='stop':
+        break
+    else :
+        stappen.append(stap)
